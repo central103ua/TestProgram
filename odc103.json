@@ -1,0 +1,1459 @@
+{
+  "count": 38,
+  "mis_id": 30,
+  "crew_url": "/api/crew/",
+  "callcard_url": "/api/callcard/",
+  "medrecord_url": "/api/medrecord/",  
+  "heartbeat_url": "/api/heartbeat/",
+  "intercall_url": "/api/intercall/",
+  "auth_url": "/api/auth/login/",
+  "headers": {
+    "Content-type": "application/json",
+    "Connection": "keep-alive",
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGcZXN0dW5pdGVkIiwiZXhwIjoxNTQwNzI1ODE4LCJlbIons46BCF4"
+  },
+  "host": "https://central103.org",
+  "host1": "http://localhost:8000",
+  "LogLevel": 2,
+  "auth": {
+    "username": "testunited",
+    "password": "1234567890",
+    "lastDatetime": "2018-10-28T13:13:38.478896"
+  },
+  "heartbeat": {
+    "interval": 10,
+    "lastDatetime": "2018-10-28T13:19:14.804011",
+    "ics": {}
+  },
+  "intercall": {
+  },  
+  "crewSchedule": [
+    {
+      "mis_crew_id": "30CR1",
+      "mis_facility_id": "30F1",
+      "mis_car_id": "30C1",
+      "template_start": "00:00:00",
+      "template_end": "16:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S5"
+        },
+        {
+          "crew_staff": "30S6"
+        },
+        {
+          "crew_staff": "30S7"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR2",
+      "mis_facility_id": "30F1",
+      "mis_car_id": "30C2",
+      "template_start": "04:00:00",
+      "template_end": "20:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S10"
+        },
+        {
+          "crew_staff": "30S11"
+        },
+        {
+          "crew_staff": "30S12"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR3",
+      "mis_facility_id": "30F1",
+      "mis_car_id": "30C3",
+      "template_start": "08:00:00",
+      "template_end": "23:59:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S21"
+        },
+        {
+          "crew_staff": "30S22"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR4",
+      "mis_facility_id": "30F1",
+      "mis_car_id": "30C4",
+      "template_start": "12:00:00",
+      "template_end": "04:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S31"
+        },
+        {
+          "crew_staff": "30S32"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR5",
+      "mis_facility_id": "30F2",
+      "mis_car_id": "30C5",
+      "template_start": "16:00:00",
+      "template_end": "08:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S41"
+        },
+        {
+          "crew_staff": "30S42"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR6",
+      "mis_facility_id": "30F2",
+      "mis_car_id": "30C5",
+      "template_start": "20:00:00",
+      "template_end": "12:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S41"
+        },
+        {
+          "crew_staff": "30S42"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR7",
+      "mis_facility_id": "30F2",
+      "mis_car_id": "30C5",
+      "template_start": "00:00:00",
+      "template_end": "22:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S41"
+        },
+        {
+          "crew_staff": "30S42"
+        }
+      ]
+    },
+    {
+      "mis_crew_id": "30CR8",
+      "mis_facility_id": "30F2",
+      "mis_car_id": "30C5",
+      "template_start": "02:00:00",
+      "template_end": "23:00:00",
+      "crew_team": [
+        {
+          "crew_staff": "30S41"
+        },
+        {
+          "crew_staff": "30S42"
+        }
+      ]
+    }
+  ],
+  "interCall": {
+    "mis_to": 13,
+    "number": 15,
+    "delay": 1,
+    "schedule": [
+      "06:00:00",
+      "08:10:00",
+      "12:20:20",
+      "15:00:30",
+      "20:20:20",
+      "23:23:23"
+    ]
+  },
+  "fakeCall": {
+    "call_name": "Fake Call",
+    "status": {
+      "max_station": 2,
+      "station": 0,
+      "lastDatetime": "2018-10-28T13:13:55.869019",
+      "delay": 530,
+      "caller_number": null,
+      "call_card_id": null,
+      "operator": null,
+      "mis_call_card_id": "CARD-2018-10-28-5047",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Дзвони, не дзвони - совершенно секретно, ",
+        "delay": 15,
+        "delaynext": 15
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "call_comments": [
+          "Городская сумашедшая",
+          "Пацанчікі балуються"
+        ],
+        "call_priority": "Не визначено",
+        "call_result": "Помилковий виклик",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "delay": 15,
+        "delaynext": 0
+      },
+      {
+        "id": 2,
+        "station": "Архів",
+        "call_comment": "Архів - всьому голова!",
+        "delay": 1,
+        "delaynext": 530
+      }
+    ]
+  },
+  "adviseCall": {
+    "call_name": "Advise Call #1",
+    "status": {
+      "max_station": 4,
+      "station": 0,
+      "delay": 600,
+      "lastDatetime": "2018-10-28T13:13:41.506283",
+      "call_card_id": null,
+      "operator": null,
+      "caller_number": null,
+      "mis_call_card_id": "CARD-2018-10-28-6135",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_comment": "Рады вас слышать!",
+        "patient": {
+          "name": "Галина",
+          "first_name": "Галина",
+          "family_name": "Галушко",
+          "middle_name": "Нікітічна",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "delay": 40,
+        "delaynext": 32
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "call_comment": "Врятуємо Галину-Катрину",
+        "call_priority": "Неекстрений",
+        "patient": {
+          "name": "Галина",
+          "first_name": "Галина-Катрина",
+          "family_name": "Галушко-Цапліна",
+          "middle_name": "Нікітічна-Петрівна",
+          "age": "21",
+          "sex": "Не відомо",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "м.Київ",
+          "street": "вул.Жовтневої революциї",
+          "building": "13/4",
+          "apartment": "4",
+          "location_type": "місто",
+          "address_type": 1,
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "complain": {
+          "complain1": "Головний біль",
+          "complain2": "Важко дихати",
+          "complain3": "Сімулянт",
+          "complain4": "Обставини події жахливі! Пече сонце"
+        },
+        "delay": 32,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Оператор103",
+        "call_comment": "Додали справжню фамілію",
+        "patient": {
+          "name": "Галина-Світлана",
+          "first_name": "Галина-Катрина",
+          "family_name": "Галушко-Цапліна-Щур",
+          "middle_name": "Нікітічна-Петрівна-Іванівна"
+        },
+        "call_address": {
+          "city": "м.КиївВВВ",
+          "street": "вул.Жовтневої революциїЇЇЇ",
+          "location_type": "місто",
+          "address_type": 1
+        },
+        "delay": 15,
+        "delaynext": 120
+      },
+      {
+        "id": 3,
+        "station": "Медичний консультант",
+        "operator": "30S4",
+        "call_comment": "Порадила випити таблетку та не сидіти на сонці",
+        "call_result": "Консультація",
+        "delay": 120,
+        "delaynext": 1
+      },
+      {
+        "id": 4,
+        "station": "Архів",
+        "call_comment": "Галину в Архив!",
+        "delay": 1,
+        "delaynext": 600
+      }
+    ]
+  },
+  "adviseCall1": {
+    "call_name": "Fake Call #2",
+    "status": {
+      "max_station": 3,
+      "station": 0,
+      "delay": 600,
+      "lastDatetime": "2018-10-28T13:18:04.604507",
+      "call_card_id": null,
+      "operator": null,
+      "caller_number": null,
+      "mis_call_card_id": "CARD-2018-10-28-6265",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Дзынь-дзынь",
+        "delay": 5,
+        "delaynext": 50
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "call_comment": "Здоровий дитина, що йому буде",
+        "call_priority": "Неекстрений",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "patient": {
+          "name": "Даніло",
+          "first_name": "Даніло",
+          "family_name": "Бурульбаша",
+          "middle_name": "Діканьський",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "с.Діканька",
+          "street": "вул.Чорта лисого",
+          "building": "13",
+          "location_type": "село",
+          "address_type": 1,
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "complain": {
+          "code_complain": "02-3b0c-07",
+          "code_sit": "29",          
+          "complain1": "Хворий",
+          "complain2": "Є дихання, Є свідомість",
+          "complain3": "Інфікована рана (осередкова чи поверхнева)",
+          "complain4": "Вавка в голове"
+        },
+        "delay": 50,
+        "delaynext": 100
+      },
+      {
+        "id": 2,
+        "station": "Медичний консультант",
+        "operator": "30S4",
+        "call_comment": "Солнце, воздух и вода - наши лучшие друзья",
+        "call_result": "Консультація",
+        "delay": 100,
+        "delaynext": 1
+      },
+      {
+        "id": 3,
+        "station": "Архів",
+        "call_comment": "Данілу в Архив!",
+        "delay": 1,
+        "delaynext": 600
+      }
+    ]
+  },
+  "adviseCall2": {
+    "call_name": "Advise Call #3",
+    "status": {
+      "max_station": 3,
+      "station": 0,
+      "delay": 600,
+      "lastDatetime": "2018-10-28T13:18:04.731864",
+      "call_card_id": null,
+      "operator": null,
+      "caller_number": null,
+      "mis_call_card_id": "CARD-2018-10-28-1879",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Тук-Тук",
+        "delay": 15,
+        "delaynext": 35
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "call_comment": "Здоровий дитина, що йому буде",
+        "call_priority": "Неекстрений",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "patient": {
+          "name": "Даніло",
+          "first_name": "Даніло",
+          "family_name": "Бурульбаша",
+          "middle_name": "Діканьський",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "с.Діканька",
+          "street": "вул.Чорта лисого",
+          "building": "13",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "complain": {
+          "complain1": "Біль у животі",
+          "complain2": "Є дихання, Є свідомість",
+          "complain3": "Біль у животі на фоні діареї",
+          "complain4": "Великий банкет. Оборжрался"
+        },
+        "delay": 35,
+        "delaynext": 120
+      },
+      {
+        "id": 2,
+        "station": "Медичний консультант",
+        "operator": "30S4",
+        "call_comment": "Иммодиума 1 таблетку раз в час, пока не пройдет и активированого угля",
+        "call_result": "Консультація",
+        "delay": 120,
+        "delaynext": 1
+      },
+      {
+        "id": 3,
+        "station": "Архів",
+        "call_comment": "Данілу в Архив!",
+        "delay": 1,
+        "delaynext": 600
+      }
+    ]
+  },
+  "er1": {
+    "call_name": "Emegrency Call #1",
+    "status": {
+      "max_station": 9,
+      "station": 0,
+      "delay": 240,
+      "lastDatetime": "2018-10-28T13:19:06.329904",
+      "call_card_id": null,
+      "operator": null,
+      "crew_id": null,
+      "caller_number": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Тук-Тук",
+        "delay": 15,
+        "delaynext": 82
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_priority": "Екстрений",
+        "call_comment": "Рятуємо Галину Цапліну!!",
+        "patient": {
+          "name": "Галина",
+          "first_name": "Галина-Катрина",
+          "family_name": "Галушко-Цапліна",
+          "middle_name": "Нікітічна-Петрівна",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Печерський",
+          "city": "м.Київ",
+          "street": "вул.Жовтневої революциї",
+          "building": "13/4",
+          "apartment": "4",
+          "location_type": "місто",
+          "address_type": 1,
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "complain": {
+          "complain1": "Психічні розлади/аномальна поведінка",
+          "complain2": "Є дихання, Є свідомість",
+          "complain3": "Реагує, погрози самогубством",
+          "complain4": "Сидить на вікни 13 поверху",
+          "code_complain": "16-2b2c-4",
+          "code_sit": "19"
+        },
+        "delay": 82,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Диспетчер напрямку",
+        "call_comment": "Шукаємо бригаду",
+        "operator": "30S1",
+        "call_result": "Виклик бригади",
+        "select_crew": "True",
+        "delay": 15,
+        "delaynext": 15
+      },
+      {
+        "id": 3,
+        "station": "Бригада",
+        "call_comment": "Поїхали!",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 15,
+        "delaynext": 600
+      },
+      {
+        "id": 4,
+        "station": "На виїзді",
+        "call_comment": "Їхали-приїхали",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 600,
+        "delaynext": 800
+      },
+      {
+        "id": 5,
+        "station": "У пацієнта",
+        "call_comment": "Лечили-вылечили",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 900,
+        "delaynext": 5
+      },    
+      {
+        "id": 6,
+        "station": "Повертаються",
+        "call_comment": "На базу",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 600,
+        "delaynext": 1
+      },
+      {
+        "id": 7,
+        "station": "MedRecord",
+        "operator": "30S1",
+        "patient": {
+          "name": "Галина",
+          "first_name": "Галина-Катрина",
+          "family_name": "Галушко-Цапліна",
+          "middle_name": "Нікітічна-Петрівна",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Печерський",
+          "city": "м.Київ",
+          "street": "вул.Жовтневої революциї",
+          "building": "13/4",
+          "apartment": "4",
+          "location_type": "місто",
+          "address_type": 1,
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "patient_address_src": "невідомо",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Покращення",
+          "result_action": "Залишений на місці",
+          "is_hospital": false
+        },
+        "diagnosis": [
+          {
+            "mkx": "F06.2",
+            "d_text": "Хорошо зафиксированый пациент в наркозе не нуждается",
+            "is_crew": true
+          }
+        ],
+        "mr_comment": "Немного морфія не завадить.",
+        "delay": 5,
+        "delaynext": 20
+      },      
+      {
+        "id": 8,
+        "station": "Архів",
+        "call_comment": "Бумага все стерпит",
+        "operator": "30S1",
+        "delay": 1,
+        "delaynext": 240
+      },
+      {
+        "id": 9,
+        "station": "MedRecord",
+        "operator": "30S1",
+        "patient": {
+          "name": "Галина",
+          "first_name": "Галина-Катрина",
+          "family_name": "Галушко-Цапліна",
+          "middle_name": "Нікітічна-Петрівна",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Печерський",
+          "city": "м.Київ",
+          "street": "вул.Жовтневої революциї",
+          "building": "13/4",
+          "apartment": "4",
+          "location_type": "місто",
+          "address_type": 1,
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "patient_address_src": "невідомо",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Покращення",
+          "result_action": "Залишений на місці",
+          "is_hospital": false
+        },
+        "diagnosis": [
+          {
+            "mkx": "F06.2",
+            "d_text": "Хорошо зафиксированый пациент в наркозе не нуждается",
+            "is_crew": true
+          },
+          {
+            "mkx": "F06.3",
+            "d_text": "Щось збуджується",
+            "is_crew": true
+          }          
+        ],
+        "mr_comment": "Немного морфія не завадить.",
+        "delay": 5,
+        "delaynext": 20
+      }
+    ]
+  },
+  "er2": {
+    "call_name": "Emegrency Call #2",
+    "status": {
+      "max_station": 9,
+      "station": 0,
+      "delay": 240,
+      "call_card_id": null,
+      "operator": null,
+      "crew_id": null,
+      "caller_number": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Тук-Тук",
+        "delay": 15,
+        "delaynext": 82
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_priority": "Екстрений",
+        "call_comment": "На помощь Великим Носам",
+        "patient": {
+          "name": "Спартак Арутюнович",
+          "first_name": "Спартак",
+          "family_name": "Гаваркадзе",
+          "middle_name": "Арутюнович",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Святошинський",
+          "city": "м.Київ",
+          "street": "с. Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "complain": {
+          "complain1": "Біль в грудях",
+          "complain2": "Є дихання, Є свідомість",
+          "complain3": "Біль в грудях, укус невідомої комахи",
+          "complain4": "Наступила на граблі"
+        },
+        "delay": 82,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Диспетчер напрямку",
+        "call_comment": "Шукаємо бригаду",
+        "operator": "30S1",
+        "call_result": "Виклик бригади",
+        "select_crew": "True",
+        "delay": 15,
+        "delaynext": 15
+      },
+      {
+        "id": 3,
+        "station": "Бригада",
+        "call_comment": "Поїхали!",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 15,
+        "delaynext": 500
+      },
+      {
+        "id": 4,
+        "station": "На виїзді",
+        "call_comment": "Їхали-приїхали",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 500,
+        "delaynext": 700
+      },
+      {
+        "id": 5,
+        "station": "У пацієнта",
+        "call_comment": "Лечили-вылечили",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 700,
+        "delaynext": 400
+      },
+      {
+        "id": 6,
+        "station": "Повертаються",
+        "call_comment": "На базу",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 400,
+        "delaynext": 1
+      },
+      {
+        "id": 7,
+        "station": "MedRecord",
+        "operator": "30S2",
+        "patient": {
+          "name": "Іной Спартак Арутюнович",
+          "first_name": "Світлий Іной Спартак",
+          "family_name": "Вах!!! Гаваркадзе",
+          "middle_name": "Ухх! Арутюнович",
+          "age": "21р.",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Святошинський",
+          "city": "м.Київ",
+          "street": "с. Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address": {
+          "city": "Цхінвалішко",
+          "street": "Вах Какие!!! Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address_src": "зі слів",
+        "patient_document": "Шабля та нагайка",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Покращення",
+          "result_action": "Залишений на місці",
+          "is_hospital": false
+        },
+        "diagnosis": [
+          {
+            "mkx": "I01.0",
+            "d_text": "Негарно чоловіку",
+            "is_crew": true
+          }
+        ],
+        "hospital": [
+          {
+            "the_place": "Фіофанія",
+            "the_doctor": "Доктор Айболит",
+            "document": "Чай/вам-завтра",
+            "event_datetime": "2019-04-30T07:00:59.479526"
+          },
+          {
+            "the_place": "Канальчикови дачі",
+            "the_doctor": "проф. Фогот",
+            "document": "Дай/сам-нет",
+            "event_datetime": "2019-05-01T07:00:59.479526"
+          }
+        ],        
+        "mr_comment": "Це ДРуГА тестова Форма 110 30/04/2019",
+        "delay": 5,
+        "delaynext": 20
+      },      
+      {
+        "id": 8,
+        "station": "Архів",
+        "call_comment": "Бумага все стерпит",
+        "operator": "30S1",
+        "delay": 1,
+        "delaynext": 240
+      },
+      {
+        "id": 9,
+        "station": "MedRecord",
+        "operator": "30S2",
+        "patient": {
+          "name": "Іной Спартак Арутюнович",
+          "first_name": "Світлий Іной Спартак",
+          "family_name": "Вах!!! Гаваркадзе",
+          "middle_name": "Ухх! Арутюнович",
+          "age": "21р.",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "district": "Святошинський",
+          "city": "м.Київ",
+          "street": "с. Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address": {
+          "city": "Цхінвалішко",
+          "street": "Вах Какие!!! Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address_src": "зі слів",
+        "patient_document": "Шабля та нагайка",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Покращення",
+          "result_action": "Залишений на місці",
+          "is_hospital": false
+        },
+        "diagnosis": [
+          {
+            "mkx": "I01.0",
+            "d_text": "Негарно чоловіку",
+            "is_crew": true
+          }
+        ],
+        "mr_comment": "Це ДРуГА тестова Форма 110 30/04/2019",
+        "delay": 5,
+        "delaynext": 20
+      }
+    ]
+  },
+  "er3": {
+    "call_name": "Emegrency Call #3",
+    "status": {
+      "max_station": 8,
+      "station": 0,
+      "delay": 240,
+      "call_card_id": null,
+      "operator": null,
+      "crew_id": null,
+      "caller_number": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Тук-Тук",
+        "delay": 15,
+        "delaynext": 82
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_priority": "Екстрений",
+        "call_comment": "Рятуємо Галину Цапліну!!",
+        "patient": {
+          "name": "Бодя",
+          "first_name": "Бодя",
+          "family_name": "Грибоедов",
+          "middle_name": "Данілич",
+          "age": "21",
+          "sex": "Ж",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "с. Поганка",
+          "street": "вул. Красівий мухомор",
+          "building": "2",
+          "location_type": "село",
+          "address_type": "будинок",
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "complain": {
+          "complain1": "Гостре отруєння",
+          "complain2": "Є дихання, Є свідомість",
+          "complain3": "Отруєння грибами",
+          "complain4": "Теща стоїть та рже"
+        },
+        "delay": 82,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Диспетчер напрямку",
+        "call_comment": "Шукаємо бригаду",
+        "operator": "30S1",
+        "call_result": "Виклик бригади",
+        "select_crew": "True",
+        "delay": 15,
+        "delaynext": 15
+      },
+      {
+        "id": 3,
+        "station": "Бригада",
+        "call_comment": "Поїхали!",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 15,
+        "delaynext": 240
+      },
+      {
+        "id": 4,
+        "station": "На виїзді",
+        "call_comment": "Їхали-приїхали",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 240,
+        "delaynext": 500
+      },
+      {
+        "id": 5,
+        "station": "У пацієнта",
+        "call_comment": "Лечили-вылечили",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 500,
+        "delaynext": 5
+      },
+      {
+        "id": 6,
+        "station": "MedRecord",
+        "operator": "30S3",
+        "patient": {
+          "name": "Свирид Щур",
+          "first_name": "Свирид",
+          "family_name": "Зендельшухер",
+          "middle_name": "Нікітіч-Петровіч",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "Маліновка",
+          "street": "02211, вул.Малінова",
+          "building": "14",
+          "location_type": "село",
+          "address_type": "будинок",
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },        
+        "patient_address": {
+          "city": "м.Київ",
+          "street": "с. Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address_src": "зі слів",
+        "patient_document": "усы и хвост",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Покращення",
+          "result_action": "Залишений на місці",
+          "is_hospital": false
+        },
+        "diagnosis": [
+          {
+            "mkx": "B56",
+            "d_text": "Такое не лечится",
+            "is_crew": true
+          }
+        ],
+        "mr_comment": "Це The Third тестова Форма 110 03/05/2019",
+        "delay": 5,
+        "delaynext": 200
+      },      
+      {
+        "id": 7,
+        "station": "Повертаються",
+        "call_comment": "На базу",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 200,
+        "delaynext": 1
+      },
+      {
+        "id": 8,
+        "station": "Архів",
+        "call_comment": "Бумага все стерпит",
+        "operator": "30S1",
+        "delay": 1,
+        "delaynext": 240
+      }
+    ]
+  },
+  "er_ed": {
+    "call_name": "ED Call #1",
+    "status": {
+      "max_station": 10,
+      "station": 0,
+      "delay": 56,
+      "lastDatetime": "2018-10-28T13:19:12.758625",
+      "call_card_id": null,
+      "operator": null,
+      "caller_number": null,
+      "mis_call_card_id": "CARD-2018-10-28-5779",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Звони, не звони - совершенно секретно",
+        "delay": 10,
+        "delaynext": 20
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_priority": "Екстрений",
+        "call_comment": "Треба поквапитися",
+        "patient": {
+          "name": "Свирид Щур",
+          "first_name": "Свирид",
+          "family_name": "Зендельшухер",
+          "middle_name": "Нікітіч-Петровіч",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "Маліновка",
+          "street": "02211, вул.Малінова",
+          "building": "14",
+          "location_type": "село",
+          "address_type": "будинок",
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },
+        "complain": {
+          "complain1": "Травма на виробництві",
+          "complain2": "Є дихання, Свідомість порушена",
+          "complain3": "Серйозна кровотеча/ампутація",
+          "complain4": "Заліз у бітономішалку"
+        },
+        "delay": 20,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Диспетчер напрямку",
+        "call_comment": "Шукаємо бригаду",
+        "operator": "30S1",
+        "select_crew": "True",
+        "call_result": "Виклик бригади",
+        "delay": 15,
+        "delaynext": 10
+      },
+      {
+        "id": 3,
+        "station": "Бригада",
+        "call_comment": "Поїхали!",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 10,
+        "delaynext": 200
+      },
+      {
+        "id": 4,
+        "station": "На виїзді",
+        "call_comment": "Їхали-приїхали",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 200,
+        "delaynext": 250
+      },
+      {
+        "id": 5,
+        "station": "У пацієнта",
+        "call_comment": "Лечили-вылечили-загубили",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 250,
+        "delaynext": 250
+      },
+      {
+        "id": 6,
+        "station": "Транспортування",
+        "call_comment": "Поїхали до фахівців",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 250,
+        "delaynext": 25
+      },
+      {
+        "id": 7,
+        "station": "У лікарні",
+        "call_comment": "Тут напевно вилікують",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 25,
+        "delaynext": 10
+      },
+      {
+        "id": 8,
+        "station": "MedRecord",
+        "operator": "30S3",
+        "patient": {
+          "name": "Свирид Щур",
+          "first_name": "Свирид",
+          "family_name": "Зендельшухер",
+          "middle_name": "Нікітіч-Петровіч",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "Маліновка",
+          "street": "02211, вул.Малінова",
+          "building": "14",
+          "location_type": "село",
+          "address_type": "будинок",
+          "longitude": "10,21339909",
+          "latitude": "80,738734987"
+        },        
+        "patient_address": {
+          "city": "м.Київ",
+          "street": "с. Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address_src": "зі слів",
+        "patient_document": "усы и хвост",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Смерть в присутності",
+          "result_action": "Доставлений на руках",
+          "is_hospital": true,
+          "death_datetime": "2019-04-30T08:00:59.479526"
+        },
+        "diagnosis": [
+          {
+            "mkx": "D04",
+            "d_text": "Болеет",
+            "is_crew": true
+          },
+          {
+            "mkx": "D10",
+            "d_text": "Сильно болеет",
+            "is_crew": false,
+            "doctor_name": "Доктор Ливси"
+          },
+          {
+            "mkx": "D11",
+            "d_text": "Не долго мучался",
+            "is_crew": false,
+            "doctor_name": "Черная Метка"
+          }
+        ],
+        "hospital": [
+          {
+            "the_place": "Фіофанія",
+            "the_doctor": "Доктор Айболит",
+            "document": "Чай/вам-завтра",
+            "event_datetime": "2019-04-30T07:00:59.479526"
+          },
+          {
+            "the_place": "Канальчикови дачі",
+            "the_doctor": "проф. Фогот",
+            "document": "Дай/сам-нет",
+            "event_datetime": "2019-05-01T07:00:59.479526"
+          }
+        ],
+        "mr_comment": "Це ДРуГА тестова Форма 110 30/04/2019",
+        "delay": 10,
+        "delaynext": 20
+      },
+      {
+        "id": 9,
+        "station": "Повертаються",
+        "call_comment": "Избавились наконец",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 20,
+        "delaynext": 1
+      },
+      {
+        "id": 10,
+        "station": "Архів",
+        "call_comment": "Щури перщі біжуть до Архіва!!!",
+        "operator": "30S1",
+        "delay": 1,
+        "delaynext": 560
+      }
+    ]
+  },
+  "er_ed2": {
+    "call_name": "ED Call #2",
+    "status": {
+      "max_station": 10,
+      "station": 0,
+      "delay": 20,
+      "lastDatetime": "2018-10-28T13:19:04.223234",
+      "call_card_id": null,
+      "operator": "30S5",
+      "caller_number": "+380638109810",
+      "mis_call_card_id": "CARD-2018-10-28-5779"
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Динь-динь, возьми трубку!",
+        "delay": 8,
+        "delaynext": 35
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "operators": [
+          "30S2",
+          "30S3"
+        ],
+        "call_priority": "Екстрений",
+        "call_comment": "Допился бедолашный",
+        "patient": {
+          "name": "Пьер",
+          "first_name": "Петр",
+          "family_name": "Безухов",
+          "middle_name": "Кириллович",
+          "age": "21",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "Московія",
+          "street": "02211, вул. Малая Малайка",
+          "building": "14",
+          "location_type": "село",
+          "address_type": "завод",
+          "longitude": "20,21339909",
+          "latitude": "70,738734987"
+        },
+        "complain": {
+          "complain1": "Силне ДТП, багато постраждалих",
+          "complain2": "Немає дихання, Немає свідомості",
+          "complain3": "Без свідомості, не дихає після конвульсій",
+          "complain4": "Впав з окна"
+        },
+        "delay": 35,
+        "delaynext": 15
+      },
+      {
+        "id": 2,
+        "station": "Диспетчер напрямку",
+        "call_comment": "Шукаємо бригаду",
+        "operator": "30S1",
+        "select_crew": "True",
+        "call_result": "Виклик бригади",
+        "delay": 15,
+        "delaynext": 10
+      },
+      {
+        "id": 3,
+        "station": "Бригада",
+        "call_comment": "Поїхали!",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 10,
+        "delaynext": 200
+      },
+      {
+        "id": 4,
+        "station": "На виїзді",
+        "call_comment": "Їхали-приїхали",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 200,
+        "delaynext": 240
+      },
+      {
+        "id": 5,
+        "station": "У пацієнта",
+        "call_comment": "Лечили-вылечили-загубили",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 240,
+        "delaynext": 200
+      },
+      {
+        "id": 6,
+        "station": "Транспортування",
+        "call_comment": "Поїхали до фахівців",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 200,
+        "delaynext": 250
+      },
+      {
+        "id": 7,
+        "station": "У лікарні",
+        "call_comment": "Тут напевно вилікують",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 250,
+        "delaynext": 100
+      },
+      {
+        "id": 8,
+        "station": "MedRecord",
+        "operator": "30S2",
+        "patient": {
+          "name": "Пьер",
+          "first_name": "Петр",
+          "family_name": "Безухов",
+          "middle_name": "Кириллович",
+          "age": "26р.",
+          "sex": "Ч",
+          "phone": "+38 033 222 1515"
+        },
+        "call_address": {
+          "city": "Московія",
+          "street": "02211, вул. Малая Малайка",
+          "building": "14",
+          "location_type": "село",
+          "address_type": "завод",
+          "longitude": "20,21339909",
+          "latitude": "70,738734987"
+        },
+        "patient_address": {
+          "city": "Цхінвалішко",
+          "street": "Вах Какие!!! Великі Носи",
+          "building": "23",
+          "location_type": "село",
+          "address_type": "будинок"
+        },
+        "patient_address_src": "з документа",
+        "patient_document": "військ.квиток: СДР №867493",
+        "noresult": "результативний",
+        "mr_result": {
+          "the_result": "Без змін",
+          "result_action": "Доставлений на щиті",
+          "is_hospital": true
+        },
+        "diagnosis": [
+          {
+            "mkx": "M48.4",
+            "d_text": "Открытый перелом позвоночника со смещением",
+            "is_crew": true
+          },
+          {
+            "mkx": "M48.5",
+            "d_text": "Срочно в операционную, на пересадку позвоночника",
+            "is_crew": false,
+            "doctor_name": "Доктор Ливси"
+          }
+        ],
+        "hospital": [
+          {
+            "the_place": "БСП",
+            "the_doctor": "Доктор Мориарти",
+            "document": "УК-123/Забыл",
+            "event_datetime": "2019-04-24T07:00:59.479526"
+          }
+        ],
+        "mr_comment": "Какие-то не ясные медицинские термины, от которых язык завязывается в трубочку",
+        "delay": 100,
+        "delaynext": 5
+      },
+      {
+        "id": 9,
+        "station": "Повертаються",
+        "call_comment": "Избавились наконец",
+        "operator": "30S5",
+        "call_result": "Виклик бригади",
+        "delay": 5,
+        "delaynext": 5
+      },
+      {
+        "id": 10,
+        "station": "Архів",
+        "call_comment": "Безухова в Архів истории!!",
+        "operator": "30S1",
+        "delay": 1,
+        "delaynext": 430
+      }
+    ]
+  }
+}

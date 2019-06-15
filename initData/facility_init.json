@@ -1,0 +1,111 @@
+{
+ "Facility": [
+  {
+   "mis_id": 30,
+   "mis_facility_id": "30F1",
+   "name": "Диспетчерська МОЗ",
+   "short_name": "МОЗ",
+   "address": {
+    "index": "03155",
+    "district": "Печерський",
+    "city": "Київ",
+    "street": "вул. Інститутська",
+    "building": "9",
+    "location_type": "місто",
+    "address_type": "будинок",
+    "longitude": "13,214342",
+    "latitude": "60,738731237",
+    "address_comment": null,
+    "date_modified": "2018-09-17T22:53:53.587637"
+   },
+   "facility_contact": "Це я і є",
+   "facility_phone": "+38 067 220 3456",
+   "facility_parent": "0",
+   "is_active": true,
+   "facility_type": "центр",
+   "facility_comment": "Хоть и тостовая, но важная",
+   "date_modified": "2018-09-17T22:53:53.589479"
+  },
+  {
+   "mis_id": 30,
+   "mis_facility_id": "30F2",
+   "name": "Кабінет Міністрів України",
+   "short_name": "КабМін",
+   "address": {
+    "index": "01008",
+    "district": "Печерський",
+    "city": "Київ",
+    "street": "вул. Грушевського",
+    "building": "12/2",
+    "apartment": null,
+    "location_type": "місто",
+    "address_type": "квартира",
+    "longitude": "10,21339909",
+    "latitude": "80,738734987",
+    "address_comment": null,
+    "date_modified": "2018-09-17T22:53:53.604192"
+   },
+   "facility_contact": null,
+   "facility_phone": "0-800-801-333",
+   "facility_parent": "30F1",
+   "is_active": true,
+   "facility_type": "станція",
+   "facility_comment": "Другий об'єкт",
+   "date_modified": "2018-09-17T22:53:53.605794"
+  },
+  {
+   "mis_id": 30,
+   "mis_facility_id": "30F3",
+   "name": "Секретний бункер",
+   "short_name": "Бункер",
+   "address": {
+    "index": "01021",
+    "district": "Печерський",
+    "city": "Київ",
+    "street": "вул. Жовтневої Революції",
+    "building": "13/4",
+    "apartment": "4",
+    "location_type": "місто",
+    "address_type": "квартира",
+    "longitude": "11,21339909",
+    "latitude": "70,738734987",
+    "address_comment": null,
+    "date_modified": "2018-09-17T22:53:53.619356"
+   },
+   "facility_contact": "Кот Матроскін",
+   "facility_phone": "0-800-801-333",
+   "facility_parent": "30F1",   
+   "is_active": true,
+   "facility_type": "станція",
+   "facility_comment": "Секретний об'єкт",
+   "date_modified": "2018-09-17T22:53:53.620802"
+  },
+  {
+   "mis_id": 30,
+   "mis_facility_id": "30F4",
+   "name": "Печерська підстанція",
+   "short_name": "Печерська",
+   "address": {
+    "index": "01008",
+    "district": null,
+    "city": "Київ",
+    "street": "вул. Грушевського",
+    "building": "12/2",
+    "apartment": null,
+    "location_type": "місто",
+    "address_type": "будинок",
+    "longitude": "10,21339909",
+    "latitude": "80,738734987",
+    "address_comment": null,
+    "date_modified": "2018-09-17T22:53:53.633980"
+   },
+   "facility_contact": null,
+   "facility_phone": "0-800-801-333",
+   "facility_parent": "30F2",
+   "is_active": true,
+   "facility_type": "підстанція",
+   "facility_comment": "Другий об'єкт",
+   "date_modified": "2018-09-17T22:53:53.635462"
+  }  
+ ]
+}
