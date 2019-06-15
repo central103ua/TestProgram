@@ -1,0 +1,79 @@
+{
+ "Cars": [
+  {
+   "mis_id": 30,
+   "mis_car_id": "30C1",
+   "mis_facility_id": "30F1",
+   "car_model": "Mercedes Strela",
+   "car_type": "A1",
+   "year_made": 2017,
+   "year_start": 2017,
+   "gov_number": "АА 3699 ЕР",
+   "car_status": "Робочий",
+   "car_owner": "Власний",
+   "car_field_number": "ER-103-1",
+   "car_comment": "Гарна машина",
+   "is_active": true
+  },
+  {
+   "mis_id": 30,
+   "mis_car_id": "30C2",
+   "mis_facility_id": "30F1",
+   "car_model": "Wolksvagen Transporter",
+   "car_type": "B",
+   "year_made": 2010,
+   "year_start": 2011,
+   "gov_number": "АН 1209 ВК",
+   "car_status": "Робочий",
+   "car_owner": "Власний",
+   "car_field_number": "ER-103-2",
+   "car_comment": "Трохи застара",
+   "is_active": true
+  },
+  {
+   "mis_id": 30,
+   "mis_car_id": "30C3",
+   "mis_facility_id": "30F1",
+   "car_model": "Porsche Cayane",
+   "car_type": "A2",
+   "year_made": 2010,
+   "year_start": 2011,
+   "gov_number": "АИ 9299 КК",
+   "car_status": "Робочий",
+   "car_owner": "Власний",
+   "car_field_number": "ER-103-3",
+   "car_comment": "Трохи застара",
+   "is_active": true
+  },
+  {
+   "mis_id": 30,
+   "mis_car_id": "30C4",
+   "mis_facility_id": "30F1",
+   "car_model": "Peugeot Adam",
+   "car_type": "нестандарт",
+   "year_made": 2010,
+   "year_start": 2011,
+   "gov_number": "АХ 1503 АХ",
+   "car_status": "Робочий",
+   "car_owner": "Власний",
+   "car_field_number": "ER-103-3",
+   "car_comment": "Трохи застара",
+   "is_active": true
+  },
+  {
+   "mis_id": 30,
+   "mis_car_id": "30C5",
+   "mis_facility_id": "30F2",
+   "car_model": "Ford Tundra",
+   "car_type": "B",
+   "year_made": 2015,
+   "year_start": 2017,
+   "gov_number": "АІ 1026 АІ",
+   "car_status": "Робочий",
+   "car_owner": "Власний",
+   "car_field_number": "ER-103-4",
+   "car_comment": "Новенька",
+   "is_active": true
+  }
+ ]
+}
