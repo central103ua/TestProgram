@@ -215,6 +215,53 @@
       }
     ]
   },
+  "badOperator": {
+    "call_name": "Fake Call",
+    "status": {
+      "max_station": 2,
+      "station": 0,
+      "lastDatetime": "2018-10-28T13:13:55.869019",
+      "delay": 530,
+      "caller_number": null,
+      "call_card_id": null,
+      "operator": null,
+      "mis_call_card_id": "CARD-2018-10-28-5047",
+      "crew_id": null
+    },
+    "stations": [
+      {
+        "id": 0,
+        "station": "PBX",
+        "operator": "SYSTEM",
+        "call_comment": "Дзвони, не дзвони - совершенно секретно, ",
+        "delay": 15,
+        "delaynext": 15
+      },
+      {
+        "id": 1,
+        "station": "Оператор103",
+        "call_comments": [
+          "Городская сумашедшая",
+          "Пацанчікі балуються"
+        ],
+        "call_priority": "Не визначено",
+        "call_result": "Помилковий виклик",
+        "operators": [
+          "30S82",
+          "30S83"
+        ],
+        "delay": 15,
+        "delaynext": 0
+      },
+      {
+        "id": 2,
+        "station": "Архів",
+        "call_comment": "Архів - всьому голова!",
+        "delay": 1,
+        "delaynext": 530
+      }
+    ]
+  },  
   "adviseCall": {
     "call_name": "Advise Call #1",
     "status": {
