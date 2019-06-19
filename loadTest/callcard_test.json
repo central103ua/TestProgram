@@ -1,0 +1,18 @@
+{
+ "CallCard": [
+  {
+   "operator_id": "30S3",
+   "mis_call_card_id": "CARD-2018-09-11-5741",
+   "caller_number": "+380634118996",
+   "call_station": "Оператор103",
+   "start_datetime": "2019-06-19T11:40:00.795578",
+   "end_datetime": "2019-06-19T11:41:00.795578",
+   "patient": {
+    "name": "Свирид Опанасович",
+    "first_name": "Свирид",
+    "middle_name": "Опанасович",
+    "family_name": "Щур"
+   }
+  }
+ ]
+}
