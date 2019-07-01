@@ -1,5 +1,5 @@
 {
-  "count": 38,
+  "count": 39,
   "mis_id": 30,
   "crew_url": "/api/crew/",
   "callcard_url": "/api/callcard/",
@@ -10,7 +10,7 @@
   "headers": {
     "Content-type": "application/json",
     "Connection": "keep-alive",
-    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGcZXN0dW5pdGVkIiwiZXhwIjoxNTQwNzI1ODE4LCJlbIons46BCF4"
+    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGcZXN0dW5pdGF4"
   },
   "host": "https://central103.org",
   "host1": "http://localhost:8000",
